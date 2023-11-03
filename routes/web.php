@@ -40,3 +40,5 @@ Route::group(['middleware' => 'auth'], function(){
         Route::get('/purchase', [ProfileController::class, 'purchase'])->name('purchase');
     });
 });
+
+
