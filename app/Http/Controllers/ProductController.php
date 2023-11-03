@@ -72,3 +72,5 @@ class ProductController extends Controller
         return view('pages.my', compact('products'));
     }
 }
+
+
